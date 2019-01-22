@@ -1,0 +1,84 @@
+body {
+    background-color: whitesmoke;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+
+
+
+.timeline {
+    background-color: lightblue;
+    margin: 200px;
+    margin-left: 400px;
+    width: 600px;
+    padding: 20px;
+    border: 2px solid blue;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.select-type {
+    background-color: lightpink;
+    width: 150px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.text-field {
+    background-color: #F9D5ED;
+    width: 100%;
+    padding: 1px;
+
+    font-size: 18px;
+
+}
+
+.like-button {
+    width: 145px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    /* background-color:#FBE4F4 */
+}
+
+.comment {
+    background-color: #F7BAE4;
+    width: 99%;
+    font-size: 20px;
+    height: auto;
+    margin-top: -17px;
+    padding-left: 5px;
+}
+
+.comment p {
+    padding: 2px;
+}
+
+#replying-comment {
+    background-color: whitesmoke;
+    width: 98%;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid black;
+
+}
+
+.image-feed {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-feed img {
+
+    height: auto;
+}
+
+.image-feed button {
+    width: 150px;
+}

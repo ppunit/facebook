@@ -1,12 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React  from 'react';
+import ReactDom from 'react-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Facebook from './facebookUI'
+import Face from './facebook'
+require('./style.css');
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+class MyApp extends React.Component{
+    //-------------------------------
+    render(){
+    return(
+        <div className="timeline">
+            <Face/>
+        </div>
+
+    )
+    }
+}
+ 
+
+ReactDom.render(<MyApp/>,document.getElementById('root'));
