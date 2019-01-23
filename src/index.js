@@ -1,8 +1,6 @@
 import React  from 'react';
 import ReactDom from 'react-dom';
-
-import Facebook from './facebookUI'
-import Face from './facebook'
+import App from './app'
 require('./style.css');
 
 
@@ -12,7 +10,7 @@ class MyApp extends React.Component{
     render(){
     return(
         <div className="timeline">
-            <Face/>
+            <App/>
         </div>
 
     )

@@ -1,19 +1,14 @@
 import React from 'react'
-class selectField extends React.Component{
-    render(){
-        return(
+function selectField(props){
+   return(
             <div>
-                <select className="select-type">
-                    
-                <option>Select Type</option>
-                <option>Text Only</option>
-                <option>Messages Only</option>
-                <option>Images and Text</option>
-                <option>NO items</option>
+                <select  defaultValue="All" className="select-type" onChange={props.selectHandler} >
+                <option value="Text">Text Only</option>
+                <option value="Image">Image</option>
+                <option value="All">All</option> 
+                <option value="No">NO items</option>
                 </select>
-        </div>
+            </div>
         )
     }
-
-}
 export default selectField
