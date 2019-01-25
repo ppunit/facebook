@@ -69,16 +69,16 @@ input[type=checkbox] {
 
 }
 
-.image-feed {
+.image-likes-container {
     display: flex;
     flex-direction: column;
 }
 
-.image-feed img {
+.image-likes-container img {
 
     height: auto;
 }
 
-.image-feed button {
+.image-likes-container button {
     width: 150px;
 }

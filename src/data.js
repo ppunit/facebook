@@ -4,7 +4,7 @@ const feed = [{
     id:123,
     image: "",
     likes: 10,
-    isLiked: false,
+    isLiked: true,
     comments: [{
         comment: "This is a comment",
         created_at: "Fri May 11 2018 19: 17: 43 GMT + 0530(IST)"
@@ -17,7 +17,7 @@ const feed = [{
     id:124,
     image: "https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     likes: 20,
-    isLiked:false,
+    isLiked:true,
     comments: [{
         comment: "beautiful",
         created_at: "Fri May 11 2018 19: 17: 43 GMT + 0530(IST)"
